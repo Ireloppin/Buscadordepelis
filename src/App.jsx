@@ -105,11 +105,15 @@ function App() {
     </header>
 
     <main>
-      
+      {hayPelis? 
       <section >
-        {loading ? <p>Cargando....</p> :<Pelis movies={movies} /> }
+        {loading ? <p>Cargando....</p> : <Pelis movies={movies} /> }
         
       </section>
+      :
+      ''
+      }
+      
       
     </main>
     </div>
