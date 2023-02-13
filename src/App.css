@@ -1,0 +1,54 @@
+.page{
+  width: 100%;
+  max-width: 80%;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+main{
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ width: 100%;
+}
+
+form{
+   display: flex;
+  justify-content: center;
+}
+
+section{
+  width: 100%;
+  text-align: center;
+}
+
+.lista-pelis{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.peli{
+ text-align: center;
+ list-style:none;
+}
+.peli img{
+  width: fit-content;
+  border-radius: 8px;
+}
+.filtros{
+  text-align: center;
+  color: grey;
+  font-weight: 700;
+}
